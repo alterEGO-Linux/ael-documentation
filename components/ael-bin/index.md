@@ -25,6 +25,7 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 
 ## List of utilities and applications.
 
+|||
 | :---------------- | :--------------------------|
 |[busy](commands/busy.md)|A small terminal command that makes the screen look impressively busy.|
 |[deep-nmap](commands/deep-nmap.md)|Runs a comprehensive Nmap scan against a target using service detection, OS detection, default NSE scripts, and traceroute.|
