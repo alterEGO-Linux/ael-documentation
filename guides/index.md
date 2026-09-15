@@ -18,3 +18,4 @@ and practical notes for developing and maintaining AlterEGO Linux as a
 unified, consistent, and comprehensive ecosystem.
 
 [Git repositories](git-repositories.md)<br />
+[Paths](paths.md)<br />
