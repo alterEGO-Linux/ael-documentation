@@ -3,7 +3,7 @@
 Welcome to the centralized documentation for AlterEGO Linux.
 
 This documentation describes the AEL environment, its applications, command-line tools, desktop components, shared conventions and development plans.
-
+<!--
 ## Start here
 
 New to AlterEGO Linux?
@@ -12,26 +12,19 @@ New to AlterEGO Linux?
 * [Installation](getting-started/installation.md)
 * [Directory layout](getting-started/directory-layout.md)
 * [Configuration](getting-started/configuration.md)
-
+-->
 ## Components
 
 ### Applications
 
-* [AEL//Colors](components/ael-colors/index.md) — Palette management and color utilities
-* [AEL//Fuzz](components/ael-fuzz/index.md) — Configurable fuzzy finder and selection engine
-* [AEL//Notifications](components/ael-notifications/index.md) — Desktop notifications, confirmations and progress reporting
+* [AEL//Bin](components/ael-bin/index.md) — Collection of small command-line utilities
 
 ### Desktop
 
-* [AEL//Bar](components/ael-bar/index.md) — Quickshell desktop bar and applets
-* [AEL//Carousel](components/ael-carousel/index.md) — Graphical application carousel
-* [AEL//Architect](components/ael-architect/index.md) — AEL desktop management interface
-* [AEL//Cyberdeck](components/ael-cyberdeck/index.md) — SDDM login theme
+* [AEL//Bar](components/ael-bar/INDEX.md) — Quickshell desktop bar and applets
 
+<!--
 ### Command-line tools
-
-* [AEL//Bin](components/ael-bin/index.md) — Collection of small command-line utilities
-* [AEL//Bin command reference](components/ael-bin/commands/index.md)
 
 ### Shared resources
 
@@ -47,9 +40,10 @@ Learn how AEL components work together:
 * [Shared appearance system](architecture/appearance-system.md)
 * [Notifications and confirmations](architecture/notifications.md)
 * [Component integration](architecture/component-integration.md)
-
+-->
 ## Guides
 
+<!--
 Task-oriented instructions:
 
 * [Create an AEL application](guides/creating-an-ael-application.md)
@@ -80,7 +74,7 @@ These records explain why major decisions were made, including:
 * Selecting standard configuration paths
 * Managing generated repository README files
 * Separating human-readable documentation from structured reference data
-
+-->
 ## Documentation status
 
 AEL//Documentation is being built progressively as existing documentation is migrated from component repositories and the former `ael-files` structure.
