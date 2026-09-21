@@ -6,7 +6,7 @@ INFO
 
  Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
  Created     : 2026-09-15 14:16:43 UTC
- Updated     : 2026-09-17 10:46:11 UTC
+ Updated     : 2026-09-18 11:39:37 UTC
  Description : Components: AEL//Bin.
 -------------------------------------------------------------------------------
 -->
@@ -35,6 +35,10 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[elevate](commands/elevate.md)|Repeats last command with sudo, if forgotten.|
 |[pacman-reset](command/pacman-reset.md)|Re-initialize pacman sync, mirrorlist and keyring.|
 |[processes](commands/processes.md)|Displays a detailed list of all currently running processes.|
+|[py-cleaner](commands/py-cleaner.md)|Cleans Python-generated cache files from the current directory and its subdirectories.|
+|[shell-info](command/shell-info.md)|Inspects the current Bash environment and displays detailed information about aliases, functions, variables, builtins, and shell keywords.|
+|[show-utc](commands/show-utc.md)|Show UTC time in terminal.|
+|[whoisweb](commands/whoisweb.md)|Query WHOIS web if whois port 43 is blocked on your network.|
 |[word-frequency](commands/word-frequency.md)|Counts word occurrences from a file or standard input and displays them by frequency or alphabetically.|
 
 ## Source
