@@ -1,91 +1,89 @@
-# AEL//Documentation
+# AlterEGO Linux Documentation
 
-Centralized documentation and machine-readable reference data for the AlterEGO Linux ecosystem.
+Welcome to the centralized documentation for AlterEGO Linux.
 
-AEL//Documentation is the primary source for:
+This documentation describes the AEL environment, its applications, command-line tools, desktop components, shared conventions and development plans.
+<!--
+## Start here
 
-* Component documentation
-* Installation and configuration guides
-* Command references
-* Development notes
-* Architecture decisions
-* Release documentation
-* Shared TOML and JSON catalogs
+New to AlterEGO Linux?
 
-The goal is to provide one organized place for documenting AlterEGO Linux instead of maintaining overlapping README files across numerous repositories and directories.
+* [AlterEGO Linux overview](getting-started/overview.md)
+* [Installation](getting-started/installation.md)
+* [Directory layout](getting-started/directory-layout.md)
+* [Configuration](getting-started/configuration.md)
+-->
+## Components
 
-## Documentation
+### Applications
 
-Start with the [documentation home page](index.md).
+* [AEL//Bin](components/ael-bin/INDEX.md) — Collection of small command-line utilities
 
-Important sections:
+### Desktop
 
-* [Getting started](getting-started/overview.md)
-* [Components](components/index.md)
-* [Architecture](architecture/overview.md)
-* [Guides](guides/index.md)
-* [Reference data](reference/README.md)
-* [Development decisions](decisions/README.md)
+* [AEL//Bar](components/ael-bar/INDEX.md) — Quickshell desktop bar and applets
 
-## Source of truth
+|||
+|:-|:-|
+|[Guides](guides/INDEX.md)|Collection of guidelines and instructions.|
+<!--
+### Command-line tools
 
-Documentation maintained in this repository is considered the primary source for the AlterEGO Linux ecosystem.
+### Shared resources
 
-Individual component repositories may still contain a concise `README.md` for:
+* [AEL//Files](components/ael-files/index.md) — Shared assets, templates and static data
 
-* A short project description
-* Basic installation instructions
-* Essential usage examples
-* A link to the complete documentation
+## Architecture
 
-When a repository README is generated from this project, changes should be made here first and then synchronized with the corresponding repository.
+Learn how AEL components work together:
 
-Documentation that must remain coupled to a specific source revision may stay inside the component repository.
+* [Architecture overview](architecture/overview.md)
+* [AEL environment and `AEL_HOME`](architecture/ael-home.md)
+* [Configuration paths](architecture/configuration-paths.md)
+* [Shared appearance system](architecture/appearance-system.md)
+* [Notifications and confirmations](architecture/notifications.md)
+* [Component integration](architecture/component-integration.md)
+-->
 
-## Machine-readable reference data
+<!--
+Task-oriented instructions:
 
-In addition to Markdown documentation, this repository contains structured TOML and JSON files that can be consumed by AEL applications.
+* [Create an AEL application](guides/creating-an-ael-application.md)
+* [Create an AEL//Bin command](guides/creating-an-ael-bin-command.md)
+* [Publish a release](guides/publishing-a-release.md)
+* [Write AEL documentation](guides/documentation-guidelines.md)
 
-Examples include:
+## Reference
 
-* Application catalogs
-* Command catalogs
-* Component metadata
-* Keybindings
-* Configuration paths
-* Dependencies
+Machine-readable catalogs and technical references:
 
-These files may be used by tools such as AEL//Fuzz and by the future AEL documentation interface.
+* [Components](reference/components.toml)
+* [Commands](reference/commands.toml)
+* [Applications](reference/applications.toml)
+* [Keybindings](reference/keybindings.toml)
+* [Configuration paths](reference/paths.md)
 
-## Repository structure
+Structured reference files are intended for both people and AEL applications. Their formats are defined under [`schemas/`](schemas/).
 
-```text
-ael-documentation/
-├── architecture/       System architecture and shared conventions
-├── components/         Documentation for individual AEL components
-├── decisions/          Important architectural and project decisions
-├── getting-started/    Introductory and installation documentation
-├── guides/             Task-oriented guides
-├── reference/          Machine-readable catalogs and reference material
-├── schemas/            Schemas for validating structured data
-├── templates/          Documentation templates
-└── tools/              Documentation maintenance utilities
-```
+## Project decisions
 
-## Contributing
+Important architectural choices are recorded in the [decision log](decisions/README.md).
 
-Before adding or changing documentation, read the [documentation guidelines](guides/documentation-guidelines.md).
+These records explain why major decisions were made, including:
 
-General principles:
+* Centralizing AEL documentation
+* Separating AEL//Bin from AEL//Files
+* Selecting standard configuration paths
+* Managing generated repository README files
+* Separating human-readable documentation from structured reference data
+-->
+## Documentation status
 
-1. Maintain one authoritative source for each subject.
-2. Link to existing information instead of duplicating it.
-3. Keep instructions close to the component they describe.
-4. Separate current documentation from historical release notes.
-5. Validate machine-readable files before committing them.
-6. Clearly identify generated files.
+AEL//Documentation is being built progressively as existing documentation is migrated from component repositories and the former `ael-files` structure.
 
-## Project
+During this transition, some links or sections may not yet be available. Existing documentation should only be removed from its original location after its replacement has been reviewed and committed here.
 
-AEL//Documentation is part of the AlterEGO Linux project.
+## Source code
+
+The documentation source is maintained in the `ael-documentation` Git repository.
 
