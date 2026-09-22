@@ -13,7 +13,7 @@ Description : emojis
 
 # emojis
 
-Provides an interactive emoji picker for the terminal using `fzf`.
+Provides an interactive emoji picker for the terminal using `ael-fuzz`.
 
 ```bash
 emojis
@@ -21,5 +21,17 @@ emojis
 
 Searches a built-in emoji database containing Unicode codes and descriptions. The selected emoji is automatically copied to the clipboard using `wl-copy` under Wayland or `xclip` under X11.
 
-**Requirements:** `fzf`, `wl-copy` (Wayland) or `xclip` (X11), and the AEL Bash library.
+The data file is created using `generate-emoji-json` which queries <https://www.unicode.org/Public/emoji/latest/emoji-test.txt>.
 
+## Requirements
+
+* AEL//Bash library (`~/.ael/lib/bash/`).
+* `ael-fuzz`
+* `wl-copy` (for Wayland)
+* `xclip` (for X11)
+
+## To Do List
+
+* Make AEL//Bash library path flexible and configurable.
+* Add a .desptop and ael-fuzz --frontend quickshell.
+* Add proper font for rich display.
