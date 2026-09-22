@@ -22,5 +22,3 @@ Conventions are conventions, not requirements.
 |`UPPERCASE`| environment/exported variables (`AEL_DATA`, `AEL_HOME`, etc.).|
 |`_UPPERCASE`| script-level internal/private variables (`_DATA`).|
 |`_lowercase`| short-lived variables (`_x`).|
-
-

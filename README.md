@@ -13,18 +13,13 @@ New to AlterEGO Linux?
 * [Directory layout](getting-started/directory-layout.md)
 * [Configuration](getting-started/configuration.md)
 -->
-## Components
-
-### Applications
-
-* [AEL//Bin](components/ael-bin/INDEX.md) — Collection of small command-line utilities
-
-### Desktop
-
-* [AEL//Bar](components/ael-bar/INDEX.md) — Quickshell desktop bar and applets
-
 |||
 |:-|:-|
+|**APPLICATIONS**||
+|[AEL//Bin](components/ael-bin/INDEX.md)|Collection of small command-line utilities|
+|**DESKTOP**||
+|[AEL//Bar](components/ael-bar/INDEX.md)|Quickshell desktop bar and applets.|
+|**OTHERS**||
 |[Guides](guides/INDEX.md)|Collection of guidelines and instructions.|
 <!--
 ### Command-line tools
