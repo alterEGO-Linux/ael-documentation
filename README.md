@@ -16,10 +16,12 @@ New to AlterEGO Linux?
 |||
 |:-|:-|
 |**APPLICATIONS**||
+|[AEL//Barcode](components/ael-barcode/INDEX.md)|Universal streaming barcode decoder for images and PDF documents.|
 |[AEL//Bin](components/ael-bin/INDEX.md)|Collection of small command-line utilities|
 |**DESKTOP**||
 |[AEL//Bar](components/ael-bar/INDEX.md)|Quickshell desktop bar and applets.|
 |**OTHERS**||
+|[Dependencies](dependencies/INDEX.md)|Dependencies used to build AEL.|
 |[Guides](guides/INDEX.md)|Collection of guidelines and instructions.|
 <!--
 ### Command-line tools
