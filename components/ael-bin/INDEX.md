@@ -37,7 +37,8 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[directory-size](commands/directory-size)|Displays the size of the current directory and its largest immediate child directories.|
 |[elevate](commands/elevate.md)|Repeats last command with sudo, if forgotten.|
 |[emojis](commands/emojis.md)|Provides an interactive emoji picker for the terminal using `ael-fuzz`.|
-|[pacman-reset](command/pacman-reset.md)|Re-initialize pacman sync, mirrorlist and keyring.|
+|[network-switch](commands/network-switch.md)|Enable or disable network connectivity.|
+|[pacman-reset](commands/pacman-reset.md)|Re-initialize pacman sync, mirrorlist and keyring.|
 |[processes](commands/processes.md)|Displays a detailed list of all currently running processes.|
 |[ports](commands/ports.md)|Displays all listening and active TCP/UDP ports, including the processes associated with them.|
 |[ps-grep](commands/ps-grep.md)|Search and inspect running processes using a compact and readable interface around `ps`.|
