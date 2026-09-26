@@ -40,7 +40,7 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[pacman-reset](command/pacman-reset.md)|Re-initialize pacman sync, mirrorlist and keyring.|
 |[processes](commands/processes.md)|Displays a detailed list of all currently running processes.|
 |[ports](commands/ports.md)|Displays all listening and active TCP/UDP ports, including the processes associated with them.|
-|[ps-grep](command/ps-grep.md)|Search and inspect running processes using a compact and readable interface around `ps`.|
+|[ps-grep](commands/ps-grep.md)|Search and inspect running processes using a compact and readable interface around `ps`.|
 |[py-cleaner](commands/py-cleaner.md)|Cleans Python-generated cache files from the current directory and its subdirectories.|
 |[shell-info](command/shell-info.md)|Inspects the current Bash environment and displays detailed information about aliases, functions, variables, builtins, and shell keywords.|
 |[show-utc](commands/show-utc.md)|Show UTC time in terminal.|
