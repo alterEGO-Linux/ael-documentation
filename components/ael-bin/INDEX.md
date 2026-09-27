@@ -6,8 +6,8 @@ INFO
 
  Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
  Created     : 2026-09-15 14:16:43 UTC
- Updated     : 2026-09-26 14:08:39 UTC
- Description : Components: AEL//Bin.
+ Updated     : 2026-09-27 14:30:19 UTC
+ Description : AEL//Bin README.
 -------------------------------------------------------------------------------
 -->
 
@@ -35,6 +35,7 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[delete](commands/delete.md)|Safely deletes one or more directories with an interactive confirmation before each deletion.|
 |[dicom-tag](commands/dicom-tag)|Provides an interactive DICOM tag reference using `ael-fuzz`.|
 |[directory-size](commands/directory-size)|Displays the size of the current directory and its largest immediate child directories.|
+|[docker-info](commands/docker-info)|Docker status helper.|
 |[elevate](commands/elevate.md)|Repeats last command with sudo, if forgotten.|
 |[emojis](commands/emojis.md)|Provides an interactive emoji picker for the terminal using `ael-fuzz`.|
 |[network-switch](commands/network-switch.md)|Enable or disable network connectivity.|
