@@ -6,7 +6,7 @@ INFO
 
 Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
 Created     : 2026-09-15 12:01:42 UTC
-Updated     : 2026-09-22 15:55:59 UTC
+Updated     : 2026-09-28 12:21:30 UTC
 Description : Guides index.
 -------------------------------------------------------------------------------
 -->
@@ -21,4 +21,5 @@ unified, consistent, and comprehensive ecosystem.
 |:-|:-|
 |[Coding conventions](coding-conventions.md)|Conventions for consistency across codebase.|
 |[Git repositories](git-repositories.md)||
-|[Paths](paths.md)||
+|[Paths](paths.md)|Path definitions.|
+|[README Template](readme-template.md)|Common template to write a consistent `README.md`|
