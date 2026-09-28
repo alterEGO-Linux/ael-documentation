@@ -2,12 +2,12 @@
 =============================================================================== 
 INFO
 ===============================================================================
- [/ael-documentation/components/ael-bin/index.md]
+[/ael-documentation/components/ael-bin/index.md]
 
- Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
- Created     : 2026-09-15 14:16:43 UTC
- Updated     : 2026-09-27 14:30:19 UTC
- Description : AEL//Bin README.
+Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
+Created     : 2026-09-15 14:16:43 UTC
+Updated     : 2026-09-28 20:04:00 UTC
+Description : AEL//Bin README.
 -------------------------------------------------------------------------------
 -->
 
@@ -19,7 +19,7 @@ of AlterEGO Linux.
 ## Installation
 
 In an AEL ecosystem, AEL//Bin utilities and applications are installed in 
-`${AEL_HOME}/bin/`.
+`~/.local//bin/`.
 
 Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 
@@ -46,9 +46,11 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[py-cleaner](commands/py-cleaner.md)|Cleans Python-generated cache files from the current directory and its subdirectories.|
 |[shell-info](command/shell-info.md)|Inspects the current Bash environment and displays detailed information about aliases, functions, variables, builtins, and shell keywords.|
 |[show-utc](commands/show-utc.md)|Show UTC time in terminal.|
+|[virtual-boxes](commands/virtual-boxes)|VirtualBox vm launcher.|
 |[whoisweb](commands/whoisweb.md)|Query WHOIS web if whois port 43 is blocked on your network.|
 |[word-frequency](commands/word-frequency.md)|Counts word occurrences from a file or standard input and displays them by frequency or alphabetically.|
 
 ## Source
 
-[AEL//Bin GitHub repository](https://github.com/alterEGO-Linux/ael-bin): https://github.com/alterEGO-Linux/ael-bin.
+- AEL//Documentation - <https://github.com/alterEGO-Linux/ael-documentation>
+* AEL//Bin - <https://github.com/alterEGO-Linux/ael-bin>
