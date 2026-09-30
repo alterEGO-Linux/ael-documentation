@@ -6,7 +6,7 @@ INFO
 
  Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
  Created     : 2026-09-15 12:13:18 UTC
- Updated     : 2026-09-15 12:13:18 UTC
+ Updated     : 2026-09-30 20:24:42 UTC
  Description : Guide: Git repository.
 -------------------------------------------------------------------------------
 -->
@@ -40,4 +40,11 @@ git commit -m "Initial commit AEL//<Component>"
 git remote add origin git@github.com:alterEGO-Linux/ael-<component>.git
 git remote -v
 git push -u origin main
+```
+
+## Tags and releases
+
+```bash
+git tag -a v0.2.0 -m "AEL//<component> 0.0.0"
+git push origin v0.0.0
 ```

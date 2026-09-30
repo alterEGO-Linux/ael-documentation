@@ -1,3 +1,16 @@
+<!--
+=============================================================================== 
+INFO
+===============================================================================
+[/ael-documentation/README.md]
+
+Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
+Created     : 2026-09-30 20:00:29 UTC
+Updated     : 2026-09-30 20:00:29 UTC
+Description : AEL//documentation README.
+-------------------------------------------------------------------------------
+-->
+
 # AlterEGO Linux Documentation
 
 Welcome to the centralized documentation for AlterEGO Linux.
@@ -18,6 +31,7 @@ New to AlterEGO Linux?
 |**APPLICATIONS**||
 |[AEL//Barcode](components/ael-barcode/INDEX.md)|Universal streaming barcode decoder for images and PDF documents.|
 |[AEL//Bin](components/ael-bin/INDEX.md)|Collection of small command-line utilities|
+|[AEL//containers](components/ael-containers/INDEX.md)|TOML-driven Docker container runner for the AEL ecosytem.|
 |**DESKTOP**||
 |[AEL//Bar](components/ael-bar/INDEX.md)|Quickshell desktop bar and applets.|
 |**OTHERS**||
