@@ -6,7 +6,7 @@ INFO
 
 Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
 Created     : 2026-09-15 14:16:43 UTC
-Updated     : 2026-09-28 20:04:00 UTC
+Updated     : 2026-10-04 14:07:12 UTC
 Description : AEL//Bin README.
 -------------------------------------------------------------------------------
 -->
@@ -38,6 +38,7 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[docker-info](commands/docker-info)|Docker status helper.|
 |[elevate](commands/elevate.md)|Repeats last command with sudo, if forgotten.|
 |[emojis](commands/emojis.md)|Provides an interactive emoji picker for the terminal using `ael-fuzz`.|
+|[extractor](commands/extractor.md)|Compressed files universal extractor.|
 |[network-switch](commands/network-switch.md)|Enable or disable network connectivity.|
 |[pacman-reset](commands/pacman-reset.md)|Re-initialize pacman sync, mirrorlist and keyring.|
 |[processes](commands/processes.md)|Displays a detailed list of all currently running processes.|
