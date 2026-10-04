@@ -6,8 +6,8 @@ INFO
 
 Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
 Created     : 2026-09-15 14:16:43 UTC
-Updated     : 2026-10-04 14:07:12 UTC
-Description : AEL//Bin README.
+Updated     : 2026-10-04 16:10:57 UTC
+Description : AEL//bin README.
 -------------------------------------------------------------------------------
 -->
 
@@ -45,6 +45,7 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[ports](commands/ports.md)|Displays all listening and active TCP/UDP ports, including the processes associated with them.|
 |[ps-grep](commands/ps-grep.md)|Search and inspect running processes using a compact and readable interface around `ps`.|
 |[py-cleaner](commands/py-cleaner.md)|Cleans Python-generated cache files from the current directory and its subdirectories.|
+|[py-server](commands/py-server.md)|Starts a Python HTTP server in the current directory.|
 |[shell-info](command/shell-info.md)|Inspects the current Bash environment and displays detailed information about aliases, functions, variables, builtins, and shell keywords.|
 |[show-utc](commands/show-utc.md)|Show UTC time in terminal.|
 |[virtual-boxes](commands/virtual-boxes)|VirtualBox vm launcher.|
