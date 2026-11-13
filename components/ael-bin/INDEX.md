@@ -1,24 +1,18 @@
 <!--
-=============================================================================== 
-INFO
-===============================================================================
-[/ael-documentation/components/ael-bin/index.md]
-
-Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
-Created     : 2026-09-15 14:16:43 UTC
-Updated     : 2026-10-05 19:15:46 UTC
-Description : AEL//bin README.
--------------------------------------------------------------------------------
+# AEL//bin README
+# author  : Pascal Malouin (https://github.com/EGOUID0)
+# project : https://github.com/alterEGO-Linux/ael-documentation
+# created : 2026-09-15
 -->
 
-# AEL//Bin
+# AEL//bin
 
-AEL//Bin is a collection of small command-line utilities and applications part 
+AEL//bin is a collection of small command-line utilities and applications part 
 of AlterEGO Linux.
 
 ## Installation
 
-In an AEL ecosystem, AEL//Bin utilities and applications are installed in 
+In an AEL ecosystem, AEL//bin utilities and applications are installed in 
 `~/.local//bin/`.
 
 Outside this ecosystem, we recommand installing in `~/.local/bin/`.
@@ -49,11 +43,12 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[reverse-ssh](commands/reverse-ssh)|Reverse SSH connections manager.|
 |[shell-info](command/shell-info.md)|Inspects the current Bash environment and displays detailed information about aliases, functions, variables, builtins, and shell keywords.|
 |[show-utc](commands/show-utc.md)|Show UTC time in terminal.|
-|[virtual-boxes](commands/virtual-boxes)|VirtualBox vm launcher.|
+|[termbin](commands/termbin.md)|A simple AEL//bin command-line utility for sending text to [termbin.com](https://termbin.com), with optional persistent URL history.|
+|[virtual-boxes](commands/virtual-boxes.md)|VirtualBox vm launcher.|
 |[whoisweb](commands/whoisweb.md)|Query WHOIS web if whois port 43 is blocked on your network.|
 |[word-frequency](commands/word-frequency.md)|Counts word occurrences from a file or standard input and displays them by frequency or alphabetically.|
 
 ## Source
 
-- AEL//Documentation - <https://github.com/alterEGO-Linux/ael-documentation>
-* AEL//Bin - <https://github.com/alterEGO-Linux/ael-bin>
+- AEL//documentation - <https://github.com/alterEGO-Linux/ael-documentation>
+- AEL//bin - <https://github.com/alterEGO-Linux/ael-bin>
