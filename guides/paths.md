@@ -1,14 +1,8 @@
 <!--
-=============================================================================== 
-INFO
-===============================================================================
- [/ael-documentation/guides/paths.md]
-
- Author      : Pascal Malouin (https://github.com/alterEGO-Linux)
- Created     : 2026-09-15 14:28:09 UTC
- Updated     : 2026-09-28 12:20:10 UTC
- Description : Guide: Path
--------------------------------------------------------------------------------
+# AEL//documentation / Guides / Path 
+# author  : Pascal Malouin (https://github.com/EGOUID0)
+# project : https://github.com/alterEGO-Linux/ael-documentation
+# created : 2026-09-15
 -->
 
 # Paths
@@ -32,6 +26,29 @@ For non-AEL users, the required paths and environment variables should be define
 | `$AEL_DATA` | Directory containing data files used by AEL, such as lists, TOML files, and JSON files. | `$AEL_HOME/data` |
 | `$AEL_BASHLIB` | Directory containing the Bash library used by AEL. | `$AEL_HOME/lib/ael-bashlib` |
 | `$AEL_PRIVATE` | User-level customization directory. | `$AEL_HOME/private` |
+
+## Application Configuration: `AEL_CONFIG`
+
+Configuration files for applications developed within the **AEL ecosystem** are stored under `~/.config/ael/` by default.
+
+Each application maintains its own subdirectory to ensure configuration isolation and consistency.
+
+```text
+~/.config/ael/
+├── ael-colors/
+│   └── config.toml
+├── ael-fuzz/
+│   └── config.toml
+└── ael-containers/
+    ├── config.toml
+    └── private/
+```
+
+### Private Configuration
+
+Applications that support user customization may provide a `private/` directory within their configuration directory.
+
+This directory is intended for user-specific settings and customizations that should be preserved independently of the application's lifecycle.
 
 ## Path Customization
 

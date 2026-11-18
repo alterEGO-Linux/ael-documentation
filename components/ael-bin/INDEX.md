@@ -1,8 +1,9 @@
 <!--
 # AEL//bin README
-# author  : Pascal Malouin (https://github.com/EGOUID0)
-# project : https://github.com/alterEGO-Linux/ael-documentation
-# created : 2026-09-15
+# author     : Pascal Malouin (https://github.com/EGOUID0)
+# assited by : ChatGPT (OpenAI)
+# project    : https://github.com/alterEGO-Linux/ael-documentation
+# created    : 2026-09-15
 -->
 
 # AEL//bin
@@ -30,6 +31,7 @@ Outside this ecosystem, we recommand installing in `~/.local/bin/`.
 |[dicom-tag](commands/dicom-tag)|Provides an interactive DICOM tag reference using `ael-fuzz`.|
 |[directory-size](commands/directory-size)|Displays the size of the current directory and its largest immediate child directories.|
 |[docker-info](commands/docker-info)|Docker status helper.|
+|[easyrdp](commands/easyrdp.md)|Lightweight wrapper around FreeRDP.|
 |[elevate](commands/elevate.md)|Repeats last command with sudo, if forgotten.|
 |[emojis](commands/emojis.md)|Provides an interactive emoji picker for the terminal using `ael-fuzz`.|
 |[extractor](commands/extractor.md)|Compressed files universal extractor.|
